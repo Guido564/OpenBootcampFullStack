@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Peliculas</h1>
+
+  <p>Bienvenidos a <em>Peliculas</em>, soy Guido y esta es una humilde tarea para la seccion de Python de OpenBootcamp en donde listo peliculas con sus respectivos autores, generos, etc usando Django</p>
+
+<h2>Contenido</h2>
+
+  <p>De momento se ha podido de listar lo siguiente:</p>
+  <ul>
+    <li><strong>Peliculas:</strong> {{ numero_peliculas }}</li>
+    <li><strong>Autores:</strong> {{ numero_autores }}</li>
+    <li><strong>Generos:</strong> {{ numero_generos }}</li>
+  </ul>
+
+{% endblock %}
