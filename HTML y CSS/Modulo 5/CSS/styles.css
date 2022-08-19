@@ -28,11 +28,11 @@ p {
 }
 
 img {
-    height: 600px;
+    height: 500px;
     width: 600px;
     margin: 20px;
     border: 8px solid black;
-    
+
 }
 
 img:hover {
