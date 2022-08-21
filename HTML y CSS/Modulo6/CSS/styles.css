@@ -1,0 +1,42 @@
+body {
+    background-color: #371B58;
+}
+
+div {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: #150050;
+    display: flex;
+    align-items: center;
+    border: 8px solid black;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+button::after {
+    content: 'Pasa por encima';
+    color: white;
+}
+
+button:hover::after {
+    content: 'Click ???';
+    color: white;
+}
+
+button:active::after {
+    content: 'Ooooo';
+    display: block;
+}
+ 
+
