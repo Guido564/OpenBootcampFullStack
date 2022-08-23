@@ -1,0 +1,62 @@
+.containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    opacity: 0.6;
+}
+
+.google-btn picture {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.twitter-btn {
+    background-color: #E5E5E5;
+    color: #6E6D7A;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn img {
+    height: 70%;
+    width: 70%;
+}
+
+.twitter-btn:hover {
+    opacity: 0.6;
+}
