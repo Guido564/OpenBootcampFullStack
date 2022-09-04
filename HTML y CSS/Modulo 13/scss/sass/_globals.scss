@@ -155,3 +155,41 @@ body {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .sec-onboarding {
+        .steps {
+            flex-direction: column;
+            .icon-desc {
+                .title {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .sec-footer-cta {
+        .footer-cta {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+
+    .sec-benefits {
+        .intro {
+            text-align: center;
+        } 
+        .intro h3 {
+            font-size: 2rem;
+        }
+    }
+
+    .sec-features {
+        .intro p {
+            font-size: 1rem;
+        }
+        .intro h3 {
+            font-size: 2rem;
+        }
+    }
+}
