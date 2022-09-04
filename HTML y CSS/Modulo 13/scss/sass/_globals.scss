@@ -141,3 +141,17 @@ body {
         }
     }
 }
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    padding: 5rem;
+    .footer-cta {
+        max-width: 50%;
+        .cta-title {
+            font-size: 2rem;
+        }
+        .cta-description {
+            font-size: 1.1rem;
+        }
+    }
+}
