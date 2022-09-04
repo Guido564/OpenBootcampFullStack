@@ -44,10 +44,20 @@ $color-main: #0075FF;
 }
 
 .main-menu {
+    margin-bottom: 0;
     li {
         list-style: none;
         display: inline;
         font-size: 0.5rem;
+
+        a {
+            color: #000;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
 

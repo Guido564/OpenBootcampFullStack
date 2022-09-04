@@ -29,10 +29,20 @@
   padding: 0.1rem 1rem;
 }
 
+.main-menu {
+  margin-bottom: 0;
+}
 .main-menu li {
   list-style: none;
   display: inline;
   font-size: 0.5rem;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
 }
 
 .icon-sm i {
@@ -83,6 +93,29 @@
   margin-top: -2rem;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo a img {
+  color: #0075FF;
+  max-width: 7rem;
+}
+
+.filter-blue {
+  filter: invert(50%) sepia(74%) saturate(4759%) hue-rotate(203deg) brightness(105%) contrast(106%);
 }
 
 /*# sourceMappingURL=index.css.map */
