@@ -1,3 +1,5 @@
+@use "components";
+
 body {
     padding: 0;
     margin: 0;
@@ -19,4 +21,23 @@ body {
 
 .filter-blue {
     filter: invert(50%) sepia(74%) saturate(4759%) hue-rotate(203deg) brightness(105%) contrast(106%)
+}
+
+.sec-home {
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+    align-items: center;
+    max-width: 768px;
+    margin: auto;
+    .home-cta {
+        flex: 1;
+        .cta-text {
+            color: components.$color-main;
+        }
+        .home-title {
+            width: 20rem;
+            font-size: 3rem;
+        }
+    }
 }

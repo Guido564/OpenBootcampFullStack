@@ -118,4 +118,23 @@ body {
   filter: invert(50%) sepia(74%) saturate(4759%) hue-rotate(203deg) brightness(105%) contrast(106%);
 }
 
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  align-items: center;
+  max-width: 768px;
+  margin: auto;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=index.css.map */
