@@ -7,6 +7,6 @@ let libroFav = {
 
 let fechaDeNacimiento = new Date(1997, 5, 19)
 
-let misDatos = ['Guido', 25, true, fechaDeNacimiento, libroFav];
+let misDatos = ['Guido', 25, `Estudiante de programacion? ${true}`, fechaDeNacimiento, libroFav];
 
 console.log(misDatos)
