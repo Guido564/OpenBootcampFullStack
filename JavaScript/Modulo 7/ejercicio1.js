@@ -1,0 +1,7 @@
+let familia = new Set(['Mario', 'Alejandrina', 'Julia'])
+console.log(familia)
+familia.add('Guido')
+familia.add('Guido')
+console.log(familia)
+familia.add('JavaScript Diug')
+console.log(familia)
