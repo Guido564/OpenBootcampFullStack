@@ -1,7 +1,7 @@
 let nombre = 'Guido'
 let apellido = 'Pruzzo'
 
-let estudiante = `   ${nombre} ${apellido}   `
+let estudiante = `${nombre} ${apellido}`
 console.log(estudiante)
 
 let estudianteMayus = estudiante.toUpperCase()
@@ -19,7 +19,7 @@ console.log(primeraLetraNombre)
 let primeraLetraApellido = apellido[0]
 console.log(primeraLetraApellido)
 
-let estudianteSinEspacios = estudiante.trim()
+let estudianteSinEspacios = estudiante.replace(/ /g, "")
 console.log(estudianteSinEspacios)
 
 let encontrarNombre = estudiante.includes(nombre)
